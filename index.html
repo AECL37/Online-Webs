@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homepage - Online Webs</title>
+    <link rel="icon" type="image/x-con" href="images/logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Tips for Web Development">
+    <meta name="keywords"
+        content="html, css, coding, code, web, web-development, website, site, online, online webs, online-webs, onlinewebs">
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+
+<body onload="navBarLoad('index')">
+    <div class="nav-header">
+        <a href="index.html" class="logo">
+            <img class="img" src="images/logo.png"><span class="logo-text">Online Webs</span>
+        </a>
+        <div class="nav-links">
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="header-home">
+            <div class="text-header-home">
+                Online Webs
+                <h2>The place for Web Development and Coding</h2>
+            </div>
+            <div class="container-home">
+                <div class="card-home">
+                    <h3>1 Person</h3>
+                    <p>Made this website</p>
+                </div>
+                <div class="card-home">
+                    <h3>2 Months</h3>
+                    <p>In learning HTML, CSS, and Javascript</p>
+                </div>
+                <div class="card-home">
+                    <h3>500+</h3>
+                    <p>Page requests on Online Webs W3Spaces(Notably by self requests)</p>
+                </div>
+            </div>
+        </div>
+        <div class="header-end-home">
+            <h1 class="gradient-text-home">Our Tutorials</h1>
+            <div class="container style2 center">
+                <div class="no-deco card style1 html">
+                    <h2>HTML</h2>
+                    <p>The language for building web pages</p>
+                    <a href="html-about.html" class="no-deco button color1">Learn HTML</a>
+                    <div class="code-text">
+                        &lt;DOCTYPE html&gt;<br>
+                        &lt;html&gt;<br>
+                        &lt;body&gt;<br><br>
+                        &lt;h1&gt;Hello World&lt;/h1&gt;<br>
+                        &lt;p id="demo"&gt;This is a paragraph.&lt;/p&gt;<br><br>
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;
+                    </div>
+                </div>
+                <div class="no-deco card style1 css">
+                    <h2>CSS</h2>
+                    <p>The language for styling web pages</p>
+                    <a href="css-about.html" class="no-deco button color1">Learn CSS</a>
+                    <div class="code-text">
+                        body {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;background-color: lightblue;<Br>
+                        }<br><br>
+                        h1 {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;background-color: red;<br>
+                        }<br><br>
+                        p {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;color: blue;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;font-weight: 200;<br>
+                        }<br>
+                    </div>
+                </div>
+                <div class="no-deco card style1 js">
+                    <h2>Javascript</h2>
+                    <p>The language for programming web pages</p>
+                    <a href="js-about.html" class="no-deco button color1">Learn Javascript</a>
+                    <div class="code-text">
+                        const paragraph = document.getElementById("demo");<br><br>
+                        paragraph.addEventListener("click", function() {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;paragraph.innerHTML = "Paragraph changed.";<br>
+                        })<br>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <script src="load-page.js"></script>
+</body>
+
+</html>
